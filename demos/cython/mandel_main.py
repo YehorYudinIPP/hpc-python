@@ -39,6 +39,6 @@ if __name__ == '__main__':
     else:
         mandel_set, runtime = main()
     print('Mandelbrot set generated in {0:5.2f} seconds'.format(runtime))
-    plot_mandel(mandel_set)
+    #plot_mandel(mandel_set)
     
 

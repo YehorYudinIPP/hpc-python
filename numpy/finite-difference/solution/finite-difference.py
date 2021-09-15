@@ -19,3 +19,6 @@ plt.plot(xi[1:-1], f_ref, label="cos")
 plt.legend()
 plt.show()
 
+# -- modification
+plt.savefig('refsol.png')
+
